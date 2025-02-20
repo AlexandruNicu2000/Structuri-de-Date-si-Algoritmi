@@ -7,20 +7,7 @@ typedef struct productNode {
   char *name;
   float price;
   int quantity;
-  struct productNode *left;
-  struct productNode *right;
-} productNode;
-
-enum MenuOption {
-    CITIRE_PRODUCTE = 1,
-    AFISARE_PRODUCTE,
-    CALCUL_ADANCIME_ARBOR,
-    CALCUL_ADANCIME_NOD,
-    CALCUL_INALTIME_NOD,
-    CAUTARE_NOD,
-    AFISARE_FRUNZE,
-    ELIBERARE_MEMORIE,
-    CURATARE_ARBOR,
+  
     IESIRE
 };
 enum MenuSearchOption{
